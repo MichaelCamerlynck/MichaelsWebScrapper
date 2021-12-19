@@ -30,8 +30,8 @@ jobs:
     - name: Upload WebScapper Build Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: WebApp1
-        path: src/WebApp1/bin/Release/netcoreapp3.1/win-x64/publish/
+        name: WebScrapper
+        path: src/WebScrapper/bin/Release/netcoreapp3.1/win-x64/publish/
         
         
       
