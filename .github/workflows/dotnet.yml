@@ -31,7 +31,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: WebScrapper
-        path: /home/runner/work/MichaelsWebScrapper/MichaelsWebScrapper/bin/Debug/netcoreapp3.1/publish/
+        path: /home/runner/work/MichaelsWebScrapper/MichaelsWebScrapper/bin/Release/netcoreapp3.1/win-x64/publish/
         
         
       
