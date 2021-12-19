@@ -36,7 +36,7 @@ namespace WebScapper.Sites
 
             // create driver
             ChromeOptions options = new ChromeOptions();
-            var chromeDriverService = ChromeDriverService.CreateDefaultService(@".\\");
+            var chromeDriverService = ChromeDriverService.CreateDefaultService(@".\");
             chromeDriverService.HideCommandPromptWindow = true;
             chromeDriverService.SuppressInitialDiagnosticInformation = true;
             options.AddArgument("headless");
